@@ -108,7 +108,7 @@ select{
 	</form>
 	<br>
 	<br>
-<a href="display.php">Display</a>
+<a href="login.php">Return</a>
 	<script type="text/javascript">
 		function submit_form(){
 			alert("Thank you for registering...");
