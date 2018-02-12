@@ -1,6 +1,6 @@
 <html>
     <title></title>
-         <link rel="stylesheet" type="text/css" href="css/Style.css">
+         <link rel="stylesheet" type="text/css" href="style.css">
          
     <head></head>
 <body id="bgclLN">
