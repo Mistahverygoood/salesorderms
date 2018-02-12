@@ -2,8 +2,41 @@
 
 <head>
 	<title>Registration Form</title>
+<style>
+body{
+			background: #333;
+			font-family:arial;
+		}
+form{
+			padding:10px;
+			margin:0 auto;
+			background:#FFFFFF;
+			width:500px;
+		}
+fieldset{
+        padding: 20px;
+      }
 
-
+label{
+			font-weight:bold;
+			float:left;
+			width: 200px;
+		}
+input{
+        margin-bottom: 20px;
+      }
+      
+textarea{
+        width: 146px;
+        height: 40px;
+        resize: none;
+        margin-bottom: 20px;
+      }
+select{
+        width: 146px;
+        margin-bottom: 20px;
+      }
+	</style>
 
 </head>
 
