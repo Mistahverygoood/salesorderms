@@ -14,24 +14,25 @@
 <!--    -->
     <div id="nav">
             <div id="navwrapper">
-                <a class="underline" href="#"><div id="menu1" class="menu1">Dashboard</div></a>
-                <a class="underline" href="#"><div id="menu1" class="menu1">Customers</div></a>
-                  <div class="dropdown">
-                      <a href="#" onclick="myFunction()" class="dropbtn">Sales</a>
+                <a id="underline" href="#"><div id="menu1" class="menu1">Dashboard</div></a>
+                <a id="underline" href="#"><div id="menu1" class="menu1">Customers</div></a>
+                  <div class="dropdown" >
+                      <button onclick="myFunction()" class="dropbtn">Sales</button>
                       <div id="myDropdown" class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <a href="#">Sales Order</a>
+                            <a href="#">Invoices</a>
+                            <a href="#">Payments</a>
+                            <a href="#">Shipments</a>
                       </div>
                   </div>
                  
                     
                 
-                <a class="underline" href="#"><div id="menu1" class="menu1">Purchase</div></a>
-                <a class="underline" href="#"><div id="menu1" class="menu1">Supplier</div></a>
-                <a class="underline" href="#"><div id="menu1" class="menu1">Inventory</div></a>
-                <a class="underline" href="#"><div id="menu1" class="menu1">Shipping</div></a>
-                <a class="underline" href="#"><div id="menu1" class="menu1">Reports</div></a>
+                <a id="underline" href="#"><div id="menu1" class="menu1">Purchase</div></a>
+                <a id="underline" href="#"><div id="menu1" class="menu1">Supplier</div></a>
+                <a id="underline" href="#"><div id="menu1" class="menu1">Inventory</div></a>
+                <a id="underline" href="#"><div id="menu1" class="menu1">Shipping</div></a>
+                <a id="underline" href="#"><div id="menu1" class="menu1">Reports</div></a>
             </div>        
         </div>
   
