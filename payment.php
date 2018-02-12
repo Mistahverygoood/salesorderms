@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head><title>Item</title>
+  <head><title>Customer</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   
@@ -29,51 +29,28 @@
             </div>        
         </div>
       <div id="custcontainter">
-        <div id="custheader">
-          <h4>Customers</h4>
-          <a href="addneworder.php" >Add New Order</a>
-        </div>
-        <div id="custcount">
-          
-          number of customers
-          quantity
-          cost of stock on hand
-          retail value of stock on hand
-          profit value of stock on hand
-        </div>
+        <div id="custheader"><h4>Customers</h4></div>
+        <div id="custcount">number of customers</div>
         <form>
         <div>
           <button >Download CSV</button>
           <label>Search:</label><input type="search" placeholder="Type here..."/>
         </div>
           <table>
-            <th>Sales Order #</th>
+            <th>Payment No/th>
+            <th>Order No</th>
+            <th>Invoice No</th>
             <th>Customer Name</th>
-            <th>Quantity</th>
-            <th>Invoiced</th>
-            <th>Paid</th>
-            <th>Total</th>
-            <th>Order Date</th>
+            <th>Payment Method</th>
+            <th>Amount</th>
+            <th>Payment Date</th>
             <th>Action</th>
           <?php
               echo "
                   <tr>
                     <td>".$row['']."</td>
                     <td>".$row['']."</td>
-                    <td>".$row['']."</td>  
-                    <td>".$row['']."</td>  
-                    <td>".$row['']."</td>  
-                    <td>".$row['']."</td> 
-                    <td>".$row['']."</td> 
-                    
-                            <form action='update_information.php' method='POST'>
-                             <input type='hidden' name='editID' value='$row[123]'>
-                             <td><input type='submit' value='Edit'></td>
-                             </form>
-                             <form action='delete_record.php' method='POST'>
-                             <input type='hidden' name='deleteID' value='$row[123]'>
-                             <td><input type='submit' value='Delete' onclick='return Delalert()' class='Dbuttons'></td>
-                             </form> 
+                    <td>".$row['']."</td>                  
                   </tr>";
           
           ?>
@@ -102,17 +79,5 @@ window.onclick = function(event) {
     }
   }
 }
-  </script>
-  <script>
-    function Delalert(){
-      var x = confirm("Are you sure you want to delete this item?")
-      if(x){
-        return true;
-      }else{
-        return false;
-      }
-      
-    }
-  
   </script>
 </html>
